@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8b5c644-4272-4f3c-9a1b-cd6da21a8d5b" name="Changes" comment="Almost have done methods for working with BD">
+      <change afterPath="$PROJECT_DIR$/../SocketClient/src/main/java/edu/school21/socketClient/client/IncomingMessagesHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/sockets/exceptions/AlreadyRegisteredException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/sockets/exceptions/AlreadySignedInException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/sockets/exceptions/NotAuthorizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/sockets/exceptions/NotRegisteredException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/sockets/exceptions/WrongPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/sockets/models/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/sockets/repositories/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/sockets/repositories/MessageRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/sockets/server/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/sockets/services/MessageServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/school21/sockets/services/MessagesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ex00/Chat/SocketServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ex00/Chat/SocketServer/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;minikube&quot;,
+      &quot;originalNamespace&quot;: &quot;default&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="minikube" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2mq3PKL83zZ5RtX2trzYZKxHgAf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Maven.SocketServer [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kandice/Desktop/JavaBootcamp/Java_Bootcamp.Day09-1/src/ex01/Chat/SocketServer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/kandice/Desktop/JavaBootcamp/Java_Bootcamp.Day09-1/src/ex00/Chat/SocketServer/src/main/java/edu/school21/sockets/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.school21.sockets.application.Main" />
+      <module name="SocketServer" />
+      <option name="PROGRAM_PARAMETERS" value="--port=8081" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.school21.sockets.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8b5c644-4272-4f3c-9a1b-cd6da21a8d5b" name="Changes" comment="" />
+      <created>1727782946932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727782946932</updated>
+      <workItem from="1727782949342" duration="4971000" />
+      <workItem from="1727790258248" duration="7888000" />
+      <workItem from="1727803314524" duration="5354000" />
+    </task>
+    <task id="LOCAL-00001" summary="Almost have done methods for working with BD">
+      <option name="closed" value="true" />
+      <created>1727793859306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727793859306</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Almost have done methods for working with BD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost have done methods for working with BD" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
